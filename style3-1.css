@@ -21,18 +21,34 @@
     }
        div.conteiner1{
            width:160px;
-           height:60px;
+           height:40px;
            margin-top:20px;
            margin-left:130px;
            background: #141f40;
            display:flex;
        }
-      div.box{
+      div.box1{
            width: 40px;
            height:40px;
            background: #a9004b;
-           margin-top:30px;
+           margin-top:20px;
            border:solid 10px #FFFFFF;
+           border-right:none;
+      }
+      div.box2{
+                 width: 40px;
+                 height:40px;
+                 background: #a9004b;
+                 margin-top:20px;
+                 border:solid 10px #FFFFFF;
+            }
+      div.box3{
+           width: 40px;
+           height:40px;
+           background: #a9004b;
+           margin-top:20px;
+           border:solid 10px #FFFFFF;
+           border-left:none;
       }
  .main{
        width:300px;
@@ -54,7 +70,7 @@
         width:140px;
         height:170px;
         margin-left:20px;
-        margin-bottom:40px;
+        margin-top:40px;
         background: #8c2727
     }
    div.item{
@@ -87,12 +103,12 @@ body {
     margin: 0;
 }
 .header {
-    height: 300px;
+    height: 220px;
     background: #141140;
 }
     div.conteiner1{
       width:60px;
-      height:180px;
+      height:200px;
       margin-top:20px;
       border: solid 1px #141140;
       background: #141140;
@@ -100,13 +116,33 @@ body {
       flex-direction: column;
       margin-left: 70px
     }
-    div.box{
+    div.box1{
        width: 40px;
-       height:60px;
+       height:40px;
        background: #a9004b;
        margin-top:20px;
        border:solid 10px #FFFFFF;
+       border-bottom:none;
     }
+    div.box2{
+       width: 40px;
+       height:40px;
+       background: #a9004b;
+       margin-top:0;
+       border:solid 10px #FFFFFF;
+    }
+    div.box3{
+       width: 40px;
+       height:40px;
+       background: #a9004b;
+       margin-top:0;
+       border:solid 10px #FFFFFF;
+       border-top:none;
+    }
+.main{
+    height: 350px;
+    width:  200px;
+}
 .side {
     float: none;
     width: 200px;
@@ -114,15 +150,16 @@ body {
     background: #80bfa8;
 }
 .content {
-            float: none;
+            float: left;
             width: 200px;
             height: 250px;
+            margin-top:0;
             background: #8c2727;
   }
        div.conteiner{
             width:140px;
             height:170px;
-            margin-top:40px;
+            margin-top:20px;
             margin-left:30px;
             margin-bottom:40px;
             background: #8c2727
@@ -134,11 +171,11 @@ body {
             margin-top:10px;
             border:solid 5px #FFFFFF;
        }
-
 }
 .footer {
     height: 100px;
     background: #d98d30;
+    float:none;
 }
 /*.clearfix:after {
     content: "";
